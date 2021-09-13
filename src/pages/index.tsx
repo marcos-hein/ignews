@@ -1,4 +1,4 @@
-import { GetStaticProps } from 'next'
+import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import { SubscribeButton } from '../components/SubscribeButton';
 import { stripe } from '../services/stripe';
@@ -9,7 +9,7 @@ interface HomeProps {
   product: {
     priceId: string;
     amount: number;
-  }
+  };
 }
 
 // Client-side
@@ -42,7 +42,7 @@ export default function Home({ product }: HomeProps) {
         <img src="/images/avatar.svg" alt="Girl coding" />
       </main>
     </>
-  )
+  );
 }
 
 export const getStaticProps: GetStaticProps = async () => {
@@ -60,5 +60,5 @@ export const getStaticProps: GetStaticProps = async () => {
       product,
     },
     revalidate: 60 * 60 * 24, // 24 hours
-  }
-}
+  };
+};
