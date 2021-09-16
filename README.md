@@ -3,14 +3,15 @@
 </h2>
 
 <p align="center">
-  <a href="#:dart:sobre">Sobre</a> &#xa0; | &#xa0;
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0;
+  <a href="#tv-preview">Preview</a> &#xa0; | &#xa0;
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-configuracoes">Requerimentos</a> &#xa0; | &#xa0;
+  <a href="#gear-configurações">Configurações</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-começando">Começando</a> &#xa0; &#xa0; | &#xa0;
+  <a href="#memo-autor">Autor</a> &#xa0; &#xa0;
 </p>
 
 
-<!-- # Sobre -->
 # :dart: Sobre
 
 O projeto tem como objetivo o estudo e desenvolvimento de uma aplicação em ReactJS com NextJS para listagem de posts e sistema de inscrição.
@@ -32,14 +33,14 @@ O projeto foi desenvolvido como pratica das aulas do modulo 03 do Ignite da Rock
 
 ---
 
-# 📺 Preview
+# :tv: Preview
 <div>
    <img src="./.github/screen-ignews.jpg" width="900">
 </div>
 
 ---
 
-# 🚀 Tecnologias
+# :rocket: Tecnologias
 
 - [Next.js](https://nextjs.org/)
 - [Stripe](https://stripe.com/)
@@ -51,7 +52,7 @@ O projeto foi desenvolvido como pratica das aulas do modulo 03 do Ignite da Rock
 
 ---
 
-# ✅ Configurações necessárias
+# :gear: Configurações
 
 ## 💾 Instalar:
 
@@ -90,5 +91,5 @@ $ stripe listen --forward-to localhost:3000/api/webhooks
 $ yarn dev
 ```
 ---
-## 🙋‍♂️️ Autor
+## :memo: Autor
 Desenvolvido por **Marcos Vinicius Hein Pereira**
