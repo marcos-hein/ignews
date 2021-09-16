@@ -3,15 +3,15 @@
 </h2>
 
 <p align="center">
-  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0;
+  <a href="#:dart:sobre">Sobre</a> &#xa0; | &#xa0;
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-configuracoes">Requerimentos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-começando">Começando</a> &#xa0; &#xa0; | &#xa0;
 </p>
 
 
-# 🎯 Sobre o projeto
-
+<!-- # Sobre -->
+# :dart: Sobre
 
 O projeto tem como objetivo o estudo e desenvolvimento de uma aplicação em ReactJS com NextJS para listagem de posts e sistema de inscrição.
 
@@ -89,3 +89,6 @@ $ stripe listen --forward-to localhost:3000/api/webhooks
 # Para iniciar a aplicação
 $ yarn dev
 ```
+---
+## 🙋‍♂️️ Autor
+Desenvolvido por **Marcos Vinicius Hein Pereira**
