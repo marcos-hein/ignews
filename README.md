@@ -7,7 +7,6 @@
   <a href="#tv-preview">Preview</a> &#xa0; | &#xa0;
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#gear-configurações">Configurações</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-começando">Começando</a> &#xa0; &#xa0; | &#xa0;
   <a href="#memo-autor">Autor</a> &#xa0; &#xa0;
 </p>
 
