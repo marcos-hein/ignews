@@ -10,7 +10,7 @@ export default NextAuth({
     Providers.GitHub({
       clientId: process.env.GITHUB_CLIENT_ID,
       clientSecret: process.env.GITHUB_CLIENT_SECRET,
-      scope: 'read:user'
+      scope: 'read:user',
     }),
   ],
   callbacks: {
@@ -21,30 +21,17 @@ export default NextAuth({
         await fauna.query(
           q.If(
             q.Not(
-              q.Exists(
-                q.Match(
-                  q.Index('user_by_email'),
-                  q.Casefold(email)
-                )
-              )
+              q.Exists(q.Match(q.Index('user_by_email'), q.Casefold(email))),
             ),
-            q.Create(
-              q.Collection('users'),
-              { data: { email } }
-            ),
-            q.Get(
-              q.Match(
-                q.Index('user_by_email'),
-                q.Casefold(email)
-              )
-            )
-          )
-        )
+            q.Create(q.Collection('users'), { data: { email } }),
+            q.Get(q.Match(q.Index('user_by_email'), q.Casefold(email))),
+          ),
+        );
 
-        return true
+        return true;
       } catch {
-        return false
+        return false;
       }
     },
-  }
-})
+  },
+});
