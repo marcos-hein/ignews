@@ -24,8 +24,7 @@ A aplicação foi desenvolvida utilizando o framework NextJS aplicando conceitos
   - STRIPE para pagamentos das inscrições
   - NextAuth para autenticação com Github
   - FaunaDB
-  <!-- Prismic ainda não -->
-  <!-- - Prismic CMS para adição e gerenciamento do conteúdo dos posts. -->
+  - Prismic CMS.
 
 
 O projeto foi desenvolvido como pratica das aulas do modulo 03 do Ignite da Rocketseat.
@@ -47,7 +46,7 @@ O projeto foi desenvolvido como pratica das aulas do modulo 03 do Ignite da Rock
 - [TypeScript](https://www.typescriptlang.org/)
 - [Next-Auth](https://next-auth.js.org/)
 - [SASS](https://sass-lang.com/)
-<!-- - [Prismic CMS](https://prismic.io/) -->
+- [Prismic CMS](https://prismic.io/)
 
 ---
 
