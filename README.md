@@ -33,7 +33,8 @@ O projeto foi desenvolvido como pratica das aulas do modulo 03 do Ignite da Rock
 
 # :tv: Preview
 <div>
-   <img src="./.github/screen-ignews.jpg" width="900">
+   <img src="./.github/ignews-preview.gif" width="900">
+   <!-- <img src="./.github/screen-ignews.jpg" width="900"> -->
 </div>
 
 ---
