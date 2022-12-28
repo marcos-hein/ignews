@@ -52,6 +52,7 @@ describe('SubscribeButton component', () => {
     useRouterMocked.mockReturnValueOnce({
       push: pushMock,
     } as any);
+
     render(<SubscribeButton />);
 
     const subscribeButton = screen.getByText('Subscribe now');
