@@ -41,6 +41,7 @@
     "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.25.1",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^29.3.1",
     "jest-dom": "^4.0.0",
     "jest-environment-jsdom": "^29.3.1",
