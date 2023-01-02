@@ -55,7 +55,7 @@ export default function PostPreview({ post }: PostPreviewProps) {
 }
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
-    paths: [{ params: { slug: 'react-hook-swr---melhor-ux-no-consumo-de-api-no-front' } }],
+    paths: [],
     fallback: 'blocking',
   };
 };

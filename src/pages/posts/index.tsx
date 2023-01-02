@@ -19,6 +19,8 @@ interface PostsProps {
 }
 
 export default function Posts({ posts }: PostsProps) {
+  if(!posts) return null
+
   return (
     <>
       <Head>

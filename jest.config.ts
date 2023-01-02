@@ -1,6 +1,4 @@
-import { Config } from 'jest';
-
-const config: Config = {
+const config = {
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   setupFilesAfterEnv: ['<rootDir>/src/tests/setupTests.ts'],
   transform: {
