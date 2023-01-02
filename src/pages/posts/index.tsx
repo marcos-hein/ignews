@@ -18,8 +18,7 @@ interface PostsProps {
   posts: Post[];
 }
 
-export default function Posts({ posts }: PostsProps) {
-  if(!posts) return null
+function Posts({ posts }: PostsProps) {
 
   return (
     <>
@@ -29,7 +28,7 @@ export default function Posts({ posts }: PostsProps) {
 
       <main className={styles.container}>
         <div className={styles.posts}>
-          {posts.map(post => (
+          {posts?.map(post => (
             <Link key={post.slug} href={`/posts/preview/${post.slug}`}>
               <a href={post.slug}>
                 <time>{post.updatedAt}</time>
@@ -69,3 +68,6 @@ export const getStaticProps: GetStaticProps = async () => {
     props: { posts },
   };
 };
+
+
+export default Posts
